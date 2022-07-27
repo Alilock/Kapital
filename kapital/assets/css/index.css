@@ -1,0 +1,310 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+  height: 5000px;
+}
+
+.campaign .container .campaign__head h1 {
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: .01em;
+}
+
+.campaign .container .campaign__head p {
+  max-width: 785px;
+  letter-spacing: .01em;
+  font-size: 16px;
+  margin-bottom: 34px;
+}
+
+.campaign .container .campaign__types ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  gap: 14px;
+  padding-left: 0;
+  list-style: none;
+}
+
+.campaign .container .campaign__types ul .ul__all {
+  background-color: #f45369;
+}
+
+.campaign .container .campaign__types ul .ul__all a {
+  color: white;
+}
+
+.campaign .container .campaign__types ul li {
+  border-radius: 37px;
+  padding: 6px 24px 8px;
+  background: #e8ecf1;
+}
+
+.campaign .container .campaign__types ul li a {
+  color: #2e3131;
+  text-decoration: none;
+}
+
+.campaign .container .campaign__item__card {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 15px;
+  border: 1px solid #eaeaea;
+  padding: 26px 50px;
+}
+
+.campaign .container .campaign__item__card__img {
+  width: 277px;
+  margin-right: 58px;
+}
+
+.campaign .container .campaign__item__card__img a img {
+  max-width: 100%;
+}
+
+.campaign .container .campaign__item__card__text__popular {
+  text-transform: uppercase;
+  color: #ff0023;
+  font-size: 18px;
+  line-height: 12px;
+  margin-bottom: 26px;
+}
+
+.campaign .container .campaign__item__card__text strong {
+  font-size: 34px;
+}
+
+.campaign .container .campaign__item__card__text ul {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  gap: 40px;
+}
+
+.campaign .container .campaign__item__card__text ul li span {
+  font-size: 20px;
+  color: #2e3131;
+  display: block;
+}
+
+.campaign .container .campaign__item__card__buttons .order {
+  text-decoration: none;
+  background-color: #f45369;
+  border-radius: 8px;
+  padding: 11px 20px 14px;
+  font-size: 24px;
+  color: white;
+  width: 280px;
+  display: inline-block;
+  text-align: center;
+}
+
+.campaign .container .campaign__item__card__buttons .more {
+  text-decoration: none;
+  margin-left: 40px;
+  font-size: 18px;
+  color: #2e3131;
+  display: inline-block;
+}
+
+.campaign .othercards h2 {
+  margin: 28px 0;
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.campaign .othercards .card {
+  background: #f9fafb;
+  border: none;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .campaign .othercards .card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .campaign .othercards .card__info {
+    text-align: center;
+  }
+}
+
+.campaign .othercards .card__img {
+  width: 70%;
+}
+
+.campaign .othercards .card__img img {
+  width: 100%;
+}
+
+.campaign .othercards .card__info h2 {
+  font-size: 24px;
+}
+
+.campaign .othercards .card__info ul {
+  list-style: none;
+}
+
+.campaign .othercards .card__info ul li::before {
+  content: "\2022";
+  color: red;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.campaign .othercards .card__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: 1px solid #e8ecf1;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .campaign .othercards .card__buttons {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .campaign .othercards .card__buttons__order {
+    background-color: #f45369;
+    color: white;
+    border-radius: 14px;
+    border: none;
+  }
+  .campaign .othercards .card__buttons__order span {
+    color: #e8ecf1;
+  }
+  .campaign .othercards .card__buttons__more {
+    border-radius: 14px;
+    border: 1px solid #e8ecf1;
+    margin-top: 14px;
+  }
+}
+
+.campaign .othercards .card__buttons__order {
+  padding: 14px 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-right: 1px solid #e8ecf1;
+  color: #f45369;
+}
+
+.campaign .othercards .card__buttons__order:hover {
+  background-color: #f45369;
+  color: white;
+}
+
+.campaign .othercards .card__buttons__more {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 14px 24px;
+}
+
+.campaign .othercards .card__buttons__more:hover {
+  background-color: #f45369;
+  color: white;
+}
+
+.campaign .features {
+  border-top: 1px solid #e8ecf1;
+  padding: 22px 0;
+}
+
+.campaign .features ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 8px;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  overflow: auto;
+}
+
+.campaign .features ul li {
+  padding: 10px 15px;
+  background-color: #e8ecf1;
+  border-radius: 8px;
+}
+
+.campaign .features ul li a {
+  text-decoration: none;
+  color: #2e3131;
+  font-size: 14px;
+}
+
+.campaign .aboutus {
+  margin-top: 34px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.campaign .featuresbottom ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #f9fafb;
+}
+
+@media (max-width: 768px) {
+  .campaign .featuresbottom ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.campaign .featuresbottom ul li {
+  list-style: none;
+  padding: 40px;
+}
+
+.campaign .featuresbottom ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #2e3131;
+}
+/*# sourceMappingURL=index.css.map */
